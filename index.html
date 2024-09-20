@@ -9,56 +9,125 @@
         border: 2px solid black;
         border-radius: 15px;
       }
-      .main{
+      .main {
         display: flex;
-        
+
         justify-content: space-around;
         position: relative;
         background-color: lightslategray;
         width: 99vw;
         height: 70px;
         color: aliceblue;
-
       }
-      .left{
+      .left {
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         align-items: center;
         position: absolute;
         left: 10px;
         top: 1rem;
-        
-
-        
-
       }
-      .right{
+      .right {
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         justify-content: end;
         align-items: center;
-        position:absolute;
+        position: absolute;
         right: 20px;
-
-
-
       }
-      .right1{
+      .right1 {
         background-color: forestgreen;
-        border-radius:15px;
+        border-radius: 15px;
         padding: 5px;
         border: 2px solid black;
       }
-      .top2{
+      .top2 {
         position: absolute;
         top: 70px;
-        background-color:green;
+        background-color: green;
         width: 99vw;
         display: flex;
         justify-content: space-evenly;
         color: aliceblue;
       }
+      section {
+        background-color: blue;
+        width: 80%;
+        height: 900px;
+        margin: 300px;
+        border: 4px double black;
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px black;
+        
+      }
+      .s1,.s2,.s3 {
+        background-color: white;
+        width: 350px;
+        margin-top: 100px;
+        margin-left: 150px;
+        box-shadow: 3px 3px 4px gray;
+        display: inline-flex;
+        justify-content: space-evenly;
+      
+      }
+      .s2{
+        height: 500px;
+        align-items: end;
+        padding-bottom: 10px;
+        
+      }
+      .s1{
+        height: 450px;
+        align-items: end;
+      }
+      .s3{
+        height: 450px;
+        align-items: end;
+      }
+      .a1,.a2,.a3{
+        text-align: center;
+        font-size: 30px;
 
+      }
+      .aa2{
+        color: white;
+        background-color: blue;
+        padding: 5px;
+        text-decoration: none;
+      }
+      .aa2:hover{
+        background-color: brown;
+      }
+      h4{
+        color: yellow;
+        text-decoration: underline;
+
+      }
+      h4:hover{
+        color: coral;
+      }
+      span{
+        color: blue;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+
+        color: aliceblue;
+      }
+      h3 {
+        text-align: center;
+
+        font-size: 40px;
+        color: aliceblue;
+      }
+       h3:hover{
+        color: crimson;
+      }
+      h1:hover{
+        color: crimson;
+      }
     </style>
   </head>
   <body>
@@ -112,9 +181,12 @@
           <span>&#9681;</span>
         </div>
         <div class="right">
-          <p>&#9733; plus</p> &nbsp;&nbsp;&nbsp;&nbsp;
-          <P>&#x3c;&#x2215;&#x3e; SPACES</P>&nbsp;&nbsp;&nbsp;&nbsp;
-          <p> &#128722;get certificate</p>&nbsp;&nbsp;&nbsp;&nbsp;
+          <p>&#9733; plus</p>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <p>&#x3c;&#x2215;&#x3e; SPACES</p>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <p>&#128722;get certificate</p>
+          &nbsp;&nbsp;&nbsp;&nbsp;
 
           <p class="right1">
             <span>sighn in </span>
@@ -140,12 +212,53 @@
         <p>MY SQL</p>
         <p>JQUERY</p>
         <p>EXCEL</p>
-        <p>XML </p>
+        <p>XML</p>
         <p>DJANGO</p>
         <p>NUMPY</p>
-
-
       </div>
     </header>
+    <section>
+      <h3>start now</h3>
+      <h1>your plan,your choice.</h1>
+      <div class="s1">
+        <div class="a1">
+          &#x1F600;
+        <h4>stater</h4>
+        <span><sub>$</sub> 49</span>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+          ipsam?
+        </p>
+        <a href="#">get started</a>
+        </div>
+      </div>
+      <div class="s2">
+        <div class="a2">
+          &#x1F600;
+        <h4>stater</h4>
+        <span><sub>$</sub> 49</span>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+          ipsam?
+        </p>
+        <a href="#" class="aa2">get started</a>
+        </div>
+      </div>
+      <div class="s3">
+        <div class="a3">
+          &#x1F600;
+        <h4>stater</h4>
+        <span><sub>$</sub> 49</span>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+          ipsam?
+        </p>
+        <a href="#">get started</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
